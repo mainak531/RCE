@@ -1,2 +1,17 @@
 # RCE
-Designed and developed a secure and scalable remote code execution engine from scratch that runs user-submitted Python and C++ code inside isolated Docker containers. Built a RESTful API using Node.js and Express to handle code submission and return output, ensuring protection against arbitrary code execution risks.
+# Remote Code Execution Engine
+
+Created by **Mainak Chanda**
+
+This is a secure code execution engine built with Node.js and Docker. It allows execution of Python and C++ code in isolated containers.
+
+## Features
+- Supports Python and C++
+- Docker-based isolation
+- Minimal REST API
+
+## Installation
+```bash
+git clone https://github.com/mainakchanda/remote-code-execution-engine.git
+cd remote-code-execution-engine
+npm install
